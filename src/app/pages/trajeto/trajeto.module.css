@@ -1,0 +1,89 @@
+/* src/styles/trajeto.css */
+
+.container {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    overflow: hidden;
+}
+
+.viagemContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.viagem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+.selectLinha {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+
+.inicio, .destino {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inicio p, .destino p {
+    font-size: 18px;
+    color: #333;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #A91818;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.campo label {
+    font-size: 18px;
+    color: #333;
+}
+
+.campo input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #A91818;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 200px;
+}
+
+textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #A91818;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
